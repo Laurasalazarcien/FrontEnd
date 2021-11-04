@@ -1,0 +1,17 @@
+body {
+    background-image: url(banner2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sobremi {
+    text-align: center;
+}
+h3 {
+    font-family: cursive;
+}
+.imagen {
+    position: relative;
+  margin: 0 auto;
+  display: block;
+  padding: 21px 0;
+}
