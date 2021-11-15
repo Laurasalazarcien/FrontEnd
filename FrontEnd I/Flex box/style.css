@@ -1,0 +1,167 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+}
+
+header {
+  background-color: #222222;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+  z-index: 1;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo_titulo {
+  padding: 0;
+  margin: 0;
+  margin-left: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.color_1 {
+  color: #39b24a;
+}
+.color_2 {
+  color: #fff;
+}
+.color_3 {
+  color: #fc200c;
+}
+
+.menu_superior {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.menu_superior ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 13px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  padding: 35px 19px;
+  background-color: #f3f3f3;
+}
+
+.titulo_foto {
+  flex: 1 50%;
+  background-image: url(assets/imagenes/delivery.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.imagen_titulo {
+  margin: 20px 19px;
+}
+
+.podio_pizzas {
+  flex: 1 50%;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.podio_pizzas h2 {
+  font-size: 24px;
+  line-height: 28px;
+  color: #fc200c;
+  margin: 26px auto;
+  text-align: center;
+}
+
+.podio_pizzas h3 {
+  font-size: 20px;
+  line-height: 23px;
+  color: #222222;
+  margin: 58px 69px 20px;
+  font-size: 20px;
+  line-height: 23px;
+  color: #222222;
+}
+
+.podio_pizzas ol {
+  margin-left: 51px;
+  padding: 0;
+}
+
+.podio_pizzas li {
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+}
+
+.imagen_podio {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imagen_podio img {
+  margin-right: 20%;
+}
+
+.color_4,
+.color_6 {
+  font-size: 24px;
+  line-height: 28px;
+  color: #fc200c;
+}
+
+.color_5 {
+  font-size: 24px;
+  line-height: 28px;
+  color: #fff;
+}
+
+footer {
+  background: #222222;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 19px 42px 19px 20px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f3f3f3;
+}
+
+.menu_footer {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.menu_footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 13px;
+  flex-direction: column;
+}
+
+.logo_footer {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
