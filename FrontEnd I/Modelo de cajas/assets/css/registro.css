@@ -1,0 +1,107 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+}
+
+.header {
+  position: fixed;
+  display: block;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  background-image: url(../imagenes/logo\ 1.png);
+  width: 99px;
+  height: 74px;
+  display: inline-block;
+}
+
+.banner {
+  margin: 0;
+  background-color: #1cd1b0;
+  padding: 10px;
+}
+
+.title {
+  background-color: #00669f;
+  color: #fff;
+  font-weight: normal;
+  padding-top: 10px;
+  padding-left: 28px;
+  padding-bottom: 10px;
+  margin: 0;
+  box-shadow: 0px 10px 7px 0px #FFF;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  color: #333;
+  font-size: 72px;
+  line-height: 72px;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  width: 30vw;
+}
+
+.formulario {
+  margin: 10% auto 154px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  flex-direction: column;
+}
+
+.formulario form {
+  width: 30vw;
+}
+
+.input {
+  background: #ffffff;
+  border: 1.53407px solid #000000;
+  box-sizing: border-box;
+  align-items: center;
+  display: block;
+  position: relative;
+  width: 100%;
+  padding: 17px 21px;
+  margin-bottom: 20px;
+}
+
+.botones input {
+  border-radius: 23.011px;
+  font-size: 24px;
+  font-family: "Karla", sans-serif;
+  text-align: center;
+  padding: 8px 22px;
+  border: none;
+  text-transform: capitalize;
+  width: 49.5%;
+ 
+}
+
+.resetear { 
+  background: #888888;
+}
+
+.registrar {
+background: #1CD1B0;
+}
+
+
+footer {
+  background-color: #00669f;
+}
+
+footer p {
+  margin: 0;
+  padding: 16px;
+  color: #fff;
+  text-align: center;
+}
