@@ -37,6 +37,10 @@ html {
   justify-content: space-between;
 }
 
+.menu-movil {
+  display: none;
+}
+
 .menu ul {
   margin: 0;
   padding: 0;
@@ -317,4 +321,93 @@ button {
   line-height: 12px;
   color: #fff;
   text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .promociones {
+    display: none;
+  }
+
+  .menu-movil {
+    display: block;
+    position: relative;
+    color: #fff;
+    text-align: right;
+    flex: 1;
+  }
+
+  .menu ul {
+    display: none;
+  }
+
+  .bienvenida {
+    background-size: cover;
+    padding: 10px;
+  }
+
+  .texto_bienvenida h2 {
+    font-size: 25px;
+  }
+
+  .productos {
+    flex-direction: column;
+  }
+
+  .productos section {
+    width: 50vw;
+    margin: 0 auto;
+  }
+
+  .productos img {
+    width: 100%;
+  }
+
+  .contactenos {
+    width: 100vw;
+    margin: 0 auto;
+  }
+
+  .contactenos h2 {
+    width: 100%;
+  }
+
+  .contactenos_form {
+    margin-bottom: 45px;
+  }
+
+  .contactenos_form input {
+    width: 60vw;
+  }
+
+  .botones {
+    width: 100vw;
+    text-align: center;
+  }
+
+  .botones button {
+    width: 47%;
+  }
+
+  .subscripcion {
+    flex-direction: column;
+    padding: 16px 5px;
+  }
+
+  .subscripcion h2 {
+    width: 100%;
+    margin-bottom: 14px;
+  }
+
+  .subscripcion form {
+    width: 90vw;
+  }
+
+  .datos {
+    flex-direction: column-reverse;
+  }
+
+  .datos .items {
+    width: 80vw;
+    margin-left: 50px;
+  }
 }
